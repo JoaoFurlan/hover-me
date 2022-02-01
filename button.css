@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #151b29, #060709);
+}
+
+button{
+    background: none;
+    color: rgb(255, 255, 255, 10%);
+    border: solid 2px rgb(255, 255, 255, 10%);
+    padding: 1em 2em;
+    font-size: 1.5em;
+    font-family: 'VT323', monospace;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+#button:hover{
+    border-color: magenta;
+    color: magenta;
+    box-shadow: 0px 0px  5px magenta;
+    text-shadow: magenta 0px 0px 5px;
+    transform: scale(1.15);
+
+}
